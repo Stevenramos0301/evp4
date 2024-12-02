@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EP4</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <style>
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: rgb(248, 199, 107);
+        margin: 20px auto;
+        width: 80%;
+    }     
+    </style>
+</head>
+<body>
+
+    <div> <!-- Carrusel -->
+    <div class="container-fluid p-0">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="img/carrusel1.jpg" class="d-block w-100" alt="carrusel1">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Meesi en Qatar 2022</h5>
+                <p>Messi en el mundial con sus compañeros siendo campeones.</p>
+              </div>
+            </div>
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="img/carrusel2.jpg" class="d-block w-100" alt="carrusel2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Messi en Barcelona</h5>
+                <p>Messi jugando en Barcelona.</p>
+              </div>
+            </div>
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="img/carrusel3.jpg" class="d-block w-100" alt="carrusel3">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Messi siendo Messi</h5>
+                <p>El mejor jugar y el ultimo 10 de todos los tiempos.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </div>
+
+    <br>
+    
+    <!-- Barra de Navegación -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="index.html">Menú</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" style="background-color: white;"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Preguntas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>    
+    </div>
+
+    <br>
+
+<div class="container-fluid">
+
+    <!-- Tipografía y botón -->
+        <div>
+            <h1 class="fw-bold text-dark display-1 w-100">Hola, esta es una pagina de Messi</h1>
+            <div class="row">
+                <div class="col-12"> 
+                    <p class="h5 font-monospace">Lionel Andrés Messi Cuccittini nació el 24 de junio de 1987 (36 años) en Rosario, Argentina. En su barrio corría el rumor que un niño de baja estatura era capaz de llevar el balón pegado a sus pies y anotar goles con una facilidad nunca antes vista. Hoy, con 1,69m de altura, el niño de Rosario es el futbolista con más títulos en la historia del fútbol.</p>
+                </div>
+            </div>            
+            <button type="button" class="btn btn-dark"
+                style="--bs-btn-padding-y: .75rem; --bs-btn-padding-x: 1.25rem; --bs-btn-font-size: 1rem;"><a class="text-light" href="https://olympics.com/es/atletas/lionel-messi">
+            Más información</a>
+            </button>
+        </div>
+        
+    <br>
+
+    <!-- Tarjetas -->
+    <div class="container">
+        <div class="row g-4">
+
+          <div class="col-12 col-md-4">
+            <div class="card" style="width: 100%;">
+              <img src="img/messi1.jpg" class="card-img-top" alt="messi1">
+              <div class="card-body text-center">
+                <h5 class="card-title">Messi en Argentina</h5>
+                <p class="card-text">Al ser convocado para el Mundial de Alemania 2006, Messi se convirtió en el jugador argentino más joven en jugar un mundial. Llegó a dicho certamen después de superar una reciente lesión que arrastraba desde marzo. Debutó en la Copa del Mundo en el segundo partido de Argentina, ante Serbia y Montenegro. Ingresó al campo de juego en el minuto 73 con un 3-0 a favor de Argentina.</p>
+                <a href="https://es.wikipedia.org/wiki/Anexo:Lionel_Messi_en_la_selecci%C3%B3n_argentina" class="btn btn-dark">Ver más</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-12 col-md-4">
+            <div class="card" style="width: 100%;">
+              <img src="img/messi2.jpg" class="card-img-top" alt="messi2">
+              <div class="card-body text-center">
+                <h5 class="card-title">Messi en Barcelona</h5>
+                <p class="card-text">Messi (Rosario, Argentina, 24 de junio de 1987) es el mejor jugador de fútbol de todos los tiempos y el hombre récord del FC Barcelona. Educado en La Masía, su figura estará siempre ligada a la historia del Barça como el mejor jugador que nunca ha vestido la camiseta azulgrana. Lionel Andrés Messi comenzó su carrera deportiva en 1995, en el Newell's Old Boys, luego jugo en el Barcelona.</p>
+                <a href="https://www.fcbarcelona.es/es/ficha/2214377/leo-messi" class="btn btn-dark">Ver más</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-12 col-md-4">
+            <div class="card" style="width: 100%;">
+              <img src="img/messi3.jpg" class="card-img-top" alt="messi3">
+              <div class="card-body text-center">
+                <h5 class="card-title">Messi en Inter de Miami</h5>
+                <p class="card-text">Acostumbrado a jugar en Europa, el rosarino hizo lo que quiso en el balompié y ahora iniciará una nueva etapa de su vida. Su nueva casa será el Inter Miami de la MLS en Estados Unidos, un país en el que este deporte aún sigue en crecimiento, pero que ya ha tenido en su liga a jugadores de talla mundial como David Beckham, Zlatan Ibrahimovic, Bale, Pirlo, entre otros.</p>
+                <a href="https://elcomercio.pe/mag/fama/lionel-messi-la-historia-detras-de-su-llegada-a-inter-miami-de-la-mls-celeb-de-argentina-nnda-nnlt-noticia/" class="btn btn-dark">Ver más</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </div>
+
+    <br>
+
+    <!-- Columnas -->
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <img src="img/fcbarcelona.jpg" alt="Imagen de Barcelona" class="img-fluid w-750">
+            </div>
+            <div class="col-12 col-md-6">
+                <h1 class="fst-italic text-dark display-3 w-100">El mejor del mundo:)10</h1>
+                <p class="text-start fw-medium">Lionel Messi ha sido coronado The Best Jugador de la FIFA 2023, reteniendo el título que ganó en 2022.La superestrella argentina ha recibido el honor una vez más despées de otro período de clasificación en el que deslumbró a los aficionados al fútbol de todo el mundo. Messi fue estrenado en la ceremonia de los The Best FIFA Football Awards™, en Londres, tras quedar primero en la votación por delante de los finalistas Erling Haaland y Kylian Mbappé. Con el ganador de la Copa del Mundo de 2022 y el internacional noruego Haaland empatados con 48 puntos, la diferencia fue por el número de nominaciones de primera opción que Messi recibió en los votos de los capitanes de las elecciones nacionales, según las Reglas de Asignación. El delantero francés Mbappé terminó tercero con 35 puntos.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Imagen responsiva -->
+    <div class="container my-4 p-3">
+        <img src="img/messi4.jpg" class="img-fluid w-100" alt="imagen">
+    </div> 
+
+</div> 
+           
+</body>
+</html>
